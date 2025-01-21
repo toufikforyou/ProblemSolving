@@ -8,8 +8,7 @@ fun main() {
         val first = input.first()
         val last = input.last()
         val length = input.length
-        val usedLength = length - 2
 
-        if (length <= 10) println(input) else println("$first$usedLength$last")
+        if (length <= 10) println(input) else println("$first${length - 2}$last")
     }
 }
